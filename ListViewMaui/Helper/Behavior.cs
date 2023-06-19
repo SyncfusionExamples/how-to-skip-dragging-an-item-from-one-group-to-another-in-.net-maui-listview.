@@ -14,8 +14,6 @@ namespace ListViewMaui
     public class Behavior : Behavior<SfListView>
     {
         #region Fields
-        private ScrollAxisBase scrollRows;
-        private VisualContainer visualContainer;
         private SfListView ListView;
 
         #endregion

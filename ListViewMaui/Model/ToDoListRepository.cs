@@ -23,7 +23,6 @@ namespace ListViewMaui
         internal ObservableCollection<ToDoItem> GetToDoList()
         {
             var todoList = new ObservableCollection<ToDoItem>();
-            var random = new Random();
 
             for (int i = 0; i < toDoLists.Count(); i++)
             {
